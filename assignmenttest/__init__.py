@@ -6,9 +6,4 @@ from .deprecated import deprecation_warning
 
 deprecation_warning()
 
-__all__ = [
-    "ClassTest",
-    "grade_report",
-    "FunctionTest",
-    "VariableTest"
-]
+__all__ = ["ClassTest", "grade_report", "FunctionTest", "VariableTest"]
