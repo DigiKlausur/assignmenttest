@@ -6,7 +6,7 @@ with open("README.md") as f:
 
 setup(
     name="assignmenttest",
-    version="0.0.2",
+    version="0.0.3",
     license="MIT",
     url="https://github.com/DigiKlausur/assignmenttest",
     description="Create test cases for Python assignments",
@@ -15,9 +15,7 @@ setup(
     author="Tim Metzler",
     author_email="tim.metzler@h-brs.de",
     packages=find_packages(exclude=("tests", "docs")),
-    install_requires=[
-        "rapidfuzz",
-    ],
+    install_requires=["rapidfuzz", "e2xgradingtools"],
     include_package_data=True,
     zip_safe=False,
 )
